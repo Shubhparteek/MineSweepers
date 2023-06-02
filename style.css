@@ -1,0 +1,166 @@
+
+body {
+    height: 100%;
+    background-size: cover;
+    height: fit-content;
+    font-family: 'Super Mario Bros', cursive;
+}
+.conatiner{
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+}
+
+.bg{
+    background-image: url('mario.png');
+    height: 100%;
+    background-size: cover;
+    height: fit-content;
+    background-color: #b9b4b2ec;
+    background-blend-mode: multiply;
+}
+
+.sectionHeading {
+    text-align: center;
+    color: rgb(243, 113, 53);
+    font-size: 3em;
+    text-shadow: 2px 2px #ff0000;
+    padding: 0;
+    margin-bottom: 0;
+}
+
+.gameContainer {
+    margin: auto;
+    background-color: rgb(152, 152, 152);
+    border: 3px solid hsl(0, 0%, 27%);
+    box-shadow: 5px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.gameContainer div {
+    height: 40px;
+    width: 40px;
+    border: 2px solid;
+    border-color: #f5f3eb ;
+    border-radius: 5px;
+    box-sizing: border-box;
+    font-size: 1.5em;
+    text-align: center;
+}
+.checked {
+    background-color: #e0e3e3;
+}
+.bomb {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.result {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.button {
+    background-color: #ffd800;
+    color: black;
+    padding: 10px 20px;
+    border-radius: 10px;
+    font-size: 1.5em;
+    cursor: pointer;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    font-family: 'Super Mario Bros', cursive;
+}
+
+.lost {
+    color: #ff0000;
+    font-size: 2em;
+}
+
+.won {
+    color: #da3093;
+    font-size: 2em;
+}
+
+.timeOver{
+    color: #ff0000;
+    font-size: 2em;
+}
+.hidden{
+  
+    display:none;
+}
+
+.time-remaining {
+    text-align: center;
+    color: rgb(255, 0, 0);
+    font-size: 24px;
+    text-shadow: 2px 2px #ffffff;
+    float: left;  
+}
+
+.luigi {
+    float: bottom;
+    width: 100px;
+    
+}
+.mariobro {
+    float: bottom;
+    width: 130px;
+}
+
+.score {
+    font-family: 'Super Mario Bros', cursive;
+}
+
+#score {
+    background-size: contain;
+    background-repeat: no-repeat;
+    padding-left: 30px;
+    font-size: 28px;
+    color: #ff0000;
+}
+
+#time {
+    font-size: 28px;
+    font-family: 'Super Mario Bros', cursive;
+    color: #ff0000;
+    text-shadow: 2px 2px #f7f7f7;
+}
+
+.bottom-container {
+    display: flex;
+    align-items: center;
+    align-content: center;
+    margin: auto;
+    color: rgb(255, 255, 255);
+    font-size: 1.5em;
+    background-color: transparent;
+    text-shadow: 1px;
+}
+
+.bottom-container img {
+    width: 100px;
+    height: auto;
+    margin-right: 10px;
+}
+
+img {
+    width: 50px;
+    height: auto;
+  }
+
+h3{
+    color: rgb(233, 0, 0);
+    font-size: 26px;
+    font-family: 'Super Mario Bros', cursive;
+    margin-top: 20px;
+    text-shadow: 2px 2px #f7f7f7;
+}
+.displayContainer{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-evenly
+}
